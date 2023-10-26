@@ -134,9 +134,9 @@ SECRET=secret
 
 1. Создайте гугл-аккаунт. Если он у вас уже есть, переходите в консоль облачной платформы Google Cloud Platform и авторизуйтесь https://console.cloud.google.com/projectselector2/home/dashboard;
 2. Создайте проект в Google Cloud Platform (Create Project);
-3. Подключить к проекту два API: Google Sheets API и Google Drive API (на плитке APIs нажмите Go to APIs overview -> Enabled APIs & services -> Enabled APIs and services -> Library);
-4. Создать сервисный аккаунт (Credentials -> Create credentials -> Service account). Заполните форму для создания сервисного аккаунта, назначьте роль сервисному аккаунту - Editor. Введите адрес вашего личного аккаунта в поле Service account admins role;
-5. Получите ключ и JSON-файл с данными сервисного аккаунта (Credentials -> нажмите на строчку с названием вашего сервисного аккаунта -> Keys –> Add Key –> Create New Key). Cохранитt файл, в котором будут собраны все необходимые данные для работы в приложении с подключёнными ранее API. Выберите формат JSON;
+3. Подключите к проекту два API: Google Sheets API и Google Drive API (на плитке APIs нажмите Go to APIs overview -> Enabled APIs & services -> Enabled APIs and services -> Library);
+4. Создайте сервисный аккаунт (Credentials -> Create credentials -> Service account). Заполните форму для создания сервисного аккаунта, назначьте роль сервисному аккаунту - Editor. Введите адрес вашего личного аккаунта в поле Service account admins role;
+5. Получите ключ и JSON-файл с данными сервисного аккаунта (Credentials -> нажмите на строчку с названием вашего сервисного аккаунта -> Keys –> Add Key –> Create New Key). Cохраните файл, в котором будут собраны все необходимые данные для работы в приложении с подключёнными ранее API. Выберите формат JSON;
 6. Перенесите данные из сохраненного файла в приложение QRkot в .env:
 
 ```
