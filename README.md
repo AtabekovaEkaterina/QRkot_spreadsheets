@@ -172,6 +172,9 @@ MINIMUM_PASSWORD_LENGTH - минимальная длина пароля для 
 TOKEN_VALIDITY_DURATION - срок действия токена в секундах<br>
 LOG_FORMAT - вид, в котором сохраняются логи<br>
 DT_FORMAT - формат времени для логов<br>
+DT_FORMAT_FOR_TABLE_TITLE - формат времени для названия google-таблицы<br>
+ROW_COUNT_IN_TABLE - количество столбцов в google-таблице<br>
+COLUMN_COUNT_IN_TABLE - количество колонок в google-таблице<br>
 URL_FOR_GOOGLE_SHEETS - часть URL для просмотра сформированной google-таблицы
 
 
