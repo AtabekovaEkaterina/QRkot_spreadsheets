@@ -27,8 +27,7 @@ async def get_all_charityprojects(
         session: AsyncSession = Depends(get_async_session),
 ):
     """Для всех пользователей."""
-    all_charityprojects = await charity_project_crud.get_multi(session)
-    return all_charityprojects
+    return await charity_project_crud.get_multi(session)
 
 
 @router.post(
@@ -98,7 +97,6 @@ async def delete_charity_project(
         project_id, session
     )
     check_invested_amount_before_deleting_project(charity_project)
-    remote_charity_project = await charity_project_crud.remove(
+    return await charity_project_crud.remove(
         charity_project, session
     )
-    return remote_charity_project
